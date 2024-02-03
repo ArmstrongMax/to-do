@@ -12,7 +12,7 @@ onMounted(() => {
 
 <template>
 	<ul class="list">
-		<ListItem v-for="item in list" :key="item.id" :text="item.text" />
+		<ListItem v-for="item in list" :key="item.id" :text="item.text" :id="item.id" :complited="true"/>
 	</ul>
 </template>
 

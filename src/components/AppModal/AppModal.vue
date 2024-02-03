@@ -41,7 +41,7 @@ const emit = defineEmits<Emits>();
 	overflow: hidden;
 	border-radius: 10px;
 	width: 500px;
-	height: 500px;
+	min-height: 200px;
 	background-color: white;
 	display: grid;
 	grid-auto-flow: row;
@@ -57,6 +57,9 @@ const emit = defineEmits<Emits>();
 
 .content-container {
 	padding: 10px;
+	display: flex;
+	justify-content: center;
+	height: fit-content;
 }
 
 .buttons-container {
